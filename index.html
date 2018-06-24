@@ -1,83 +1,17 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <style>
-    h3, p, h1, li {
-      text-align: center;
-    }
-    html {
-      font-family: sans-serif;
-      -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%;
-      }
-      .row {
-        col-xs-3: 100%;
-      }
-    
-    .center {
-      text-align: center;
-      list-style-position: inside;
-    }
+---
+layout: default
+---
 
-  </style>
+<div class="home">
 
-<link href="/CSS/normalize.css" rel="stylesheet" type="text/css">
-<link href="/CSS/style.css" rel="stylesheet" type="text/css">
+  <h1>Posts</h1>
 
-</head>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> <a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-<body>
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
-<h3>Oluseun Arowolaju</h3>
 </div>
-
-<div>
-<p>This is going to be a website about the future. Purity can't survive in this world. In order for me to have the freedom that I want, I must leverage my gifts.</p>
-<p>Using the regret minimization framework, I have to realize what my values are. I am going to use my PACT method, and the regret minimization framework to map out my future. </p>
-</div>
-
-<div class="container">
-  <div class="col-xs-3">
-    <h1>Personal</h1>
-    <ol class="center">
-      <li>Faith has to be first in everything I do.</li>
-      <li>Family must be a cornerstone in my life.</li>
-      <li>Fortune to help the less furtunate is the end goal. What ever I have, I want to give back.</li>
-    </ol>
-  </div>
-
-  <div class="col-xs-3">
-    <h1>Academic</h1>
-    <ol class="center">
-      <li>The most imortant thing for me to learn is finance.</li>
-      <li>The second most important thing for me to learn is law.</li>
-      <li>The third most important thing for me to learn is programming (Python, Java & C++)</li>
-    </ol>
-  </div>
-
-  <div class="col-xs-3">
-    <h1>Career</h1>
-    <ol class="center">
-      <li>I want to retire as a Venture Capitalist</li>
-      <li>I want my mid career job to be in a major company (google/spacex)</li>
-      <li>I want my early career job to be a software engineer </li>
-    </ol>
-  </div>
-
-  <div class="col-xs-3">
-    <h1>Therapy</h1>
-    <ol class="center">
-      <li>In order to keep my peace, I have to write, publish a book.</li>
-      <li>In order to keep my peace, I need to travel a lot...a lot.</li>
-      <li>In order to keep my peace, I must pray.</li>
-    </ol>
-  </div>
-</div>
-
-</body>
-
-<footer>
-  <p> Made with love by <href="www.kidseun.com">Oluseun Arowolaju</h1>
-</footer>
-
-</html>
