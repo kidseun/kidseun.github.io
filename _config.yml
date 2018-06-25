@@ -1,6 +1,6 @@
-name: Dat site title tho
+name: Oluseun Arowolaju
 markdown: redcarpet
 pygments: true
-description: "Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-url: "jekyll-new.joelglovier.com"
+description: "Oluseun Arowolaju's tech portfolio."
+url: "kidseun.github.io"
 permalink: /posts/:title
