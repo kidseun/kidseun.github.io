@@ -3,12 +3,10 @@ layout: page
 title: Projects
 ---
 
-Just a sample of another page that you could include for some purpose in the primary navigation.
+Here are some of the projects I'm working on.
 
-This could be a great place to list your own projects. But to get you started, here's some handy links:
-
-- [List of Jekyll-powered websites](https://github.com/jekyll/jekyll/wiki/Sites)
-- [Octopress, a Jekyll based blog framework](https://github.com/octopress/)
-- [Jekyll documentation](http://jekyllrb.com/)
-- [Jekyll source on GitHub](https://github.com/jekyll/jekyll)
-- [Available plugins](http://jekyllrb.com/docs/plugins/#available_plugins)
+- [i45 Labs](https://www.i45labs.com)
+- [i45 App](https://https://thawing-ravine-76639.herokuapp.com)
+- [KiD Media](https://kidmedia.co/)
+- [Mesh++](https://meshplusplus.com)
+- [Flair](http://flair.co)
