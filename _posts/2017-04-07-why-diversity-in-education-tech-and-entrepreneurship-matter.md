@@ -2,7 +2,6 @@
 layout: post
 title: "Why Diversity in Education, Tech and Entrepreneurship Matter"
 author: "Oluseun Arowolaju"
-meta: "Springfield"
 ---
 
 Why Diversity in Education, Tech and Entrepreneurship Matter

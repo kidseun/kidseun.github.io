@@ -2,7 +2,6 @@
 layout: post
 title: "What #ThinkChicago Taught Me"
 author: "Oluseun Arowolaju"
-meta: "Springfield"
 ---
 
 What #ThinkChicago Taught Me
